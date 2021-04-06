@@ -1,0 +1,57 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: tomato;
+    border-radius: 5px;  
+    text-shadow: 1px 1px rgb(167, 166, 166);
+    -webkit-animation: ease-in-out  0.2s;
+       -moz-animation: ease-in-out 0.2s;
+        -ms-animation: ease-in-out 0.2s; 
+         -o-animation: ease-in-out 0.2s;
+            animation: ease-in-out 0.2s;
+}
+
+@keyframes fadein{
+    from{}
+    to{background-color: tomato;}
+}
+
+@-webkit-keyframes fadein {
+    from {  }
+    to   { background-color: tomato;}
+}
+
+@-moz-keyframes fadein {
+    from {  }
+    to   { background-color: tomato; }
+}
+
+@-ms-keyframes fadein {
+    from {  }
+    to   { background-color: tomato; }
+}
+
+@-o-keyframes fadein {
+    from { }
+    to   { background-color: tomato;}
+}
